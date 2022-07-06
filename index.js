@@ -13,3 +13,5 @@ function BMI() {
 
   document.querySelector("#ausgabe").innerHTML = BMI + " BMI";
 }
+
+

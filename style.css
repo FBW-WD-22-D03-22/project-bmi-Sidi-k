@@ -31,8 +31,10 @@ button{
     font-size: 15px; 
 }
 button:hover{
-    color: white; 
+    color:  rgb(111, 177, 197); 
     cursor: pointer;
+    background-color: transparent;
+    border: solid 1px rgb(111, 177, 197);
 }
 input[type=number] {
     border: none;
@@ -69,9 +71,6 @@ td, th {
     text-align: center;
     width: 50%;
 }
-
-
-
 #damen-tabelle{
     background-color: rgb(227, 243, 243);
 }
@@ -79,37 +78,27 @@ td, th {
 #mann-tabelle{
     background-color: rgb(224, 213, 203);
 }
-
-
 #tabele{
     display: flex;
 }
-
 table{
     height: 100px;
     margin-left: 3px;
 }
-
 #ausgabe{
     display: flex;
     justify-content: center;
     font-size: 30px;
 }
-
 input{
     width: 150px;
 }
-
-
 #grosse{
     margin-left: 18px;
-
 }
-
 img{
     width: 250px;
     display: inline;
-
 }
 #bild-apfel{
     display: flex;
@@ -119,5 +108,46 @@ img{
 #bild-tape{
     position: absolute;
     left: 86%;
-
 }
+
+
+
+
+@media only screen and (max-width: 970px) {
+    body {
+        padding-bottom: 50px;
+      
+    }
+
+    h1{
+        display: flex;
+        justify-content: center;
+        font-size: 25px;
+    }
+    #bild-tape2{
+        position: relative;
+        left: 20%;
+    }
+    main{
+        width: 60vw;
+    }
+    #tabele{
+        display: block;
+    }
+    #bild-tape {
+        display: none;
+        position: absolute;
+    }
+    p{
+        font-size: 15px;
+    }
+    #h2bmibrechnen{
+        font-size: 16px;
+    }
+    #h4-damen {
+        font-size: 15px;
+
+    }
+
+
+  }
